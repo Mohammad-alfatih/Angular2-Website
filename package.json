@@ -1,6 +1,11 @@
 {
-  "name": "a2website",
+  "name": "Angular2-Website",
   "version": "1.0.0",
+  "description": "Basic Angular 2 Website",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mohammad-alfatih/Angular2-Website.git"
+  },
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "lite": "lite-server",
