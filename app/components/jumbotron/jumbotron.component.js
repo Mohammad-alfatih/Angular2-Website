@@ -7,17 +7,17 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var AppComponent = (function () {
-    function AppComponent() {
+var JumbotronComponent = (function () {
+    function JumbotronComponent() {
     }
-    return AppComponent;
+    return JumbotronComponent;
 }());
-AppComponent = __decorate([
+JumbotronComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
-        selector: 'my-app',
-        templateUrl: 'app.component.html'
+        selector: 'jumbotron',
+        templateUrl: 'jumbotron.component.html'
     })
-], AppComponent);
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+], JumbotronComponent);
+exports.JumbotronComponent = JumbotronComponent;
+//# sourceMappingURL=jumbotron.component.js.map
