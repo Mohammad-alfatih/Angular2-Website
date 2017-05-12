@@ -11,6 +11,9 @@ var platform_browser_1 = require("@angular/platform-browser");
 var app_component_1 = require("./app.component");
 var navbar_component_1 = require("./components/navbar/navbar.component");
 var jumbotron_component_1 = require("./components/jumbotron/jumbotron.component");
+var home_component_1 = require("./components/pages/home.component");
+var about_component_1 = require("./components/pages/about.component");
+var app_routing_1 = require("./app.routing");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -18,8 +21,13 @@ var AppModule = (function () {
 }());
 AppModule = __decorate([
     core_1.NgModule({
-        imports: [platform_browser_1.BrowserModule],
-        declarations: [app_component_1.AppComponent, navbar_component_1.NavbarComponent, jumbotron_component_1.JumbotronComponent],
+        imports: [platform_browser_1.BrowserModule, app_routing_1.routing],
+        declarations: [app_component_1.AppComponent,
+            navbar_component_1.NavbarComponent,
+            jumbotron_component_1.JumbotronComponent,
+            home_component_1.HomeComponent,
+            about_component_1.AboutComponent
+        ],
         bootstrap: [app_component_1.AppComponent]
     })
 ], AppModule);

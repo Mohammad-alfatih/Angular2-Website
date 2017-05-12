@@ -12,7 +12,7 @@ export class NavbarComponent {
     private aboutpage: string;
     
     constructor() {
-        this.pagetitle = "Angular 2 is Awesome!";
+        this.branding = "Angular 2 is Awesome!";
         this.homepage = "Home";
         this.aboutpage = "About";
     }

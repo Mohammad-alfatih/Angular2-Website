@@ -12,7 +12,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var NavbarComponent = (function () {
     function NavbarComponent() {
-        this.pagetitle = "Angular 2 is Awesome!";
+        this.branding = "Angular 2 is Awesome!";
         this.homepage = "Home";
         this.aboutpage = "About";
     }

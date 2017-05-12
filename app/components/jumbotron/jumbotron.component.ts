@@ -6,4 +6,16 @@ import { Component } from '@angular/core';
     templateUrl: 'jumbotron.component.html'
 })
 
-export class JumbotronComponent {}
+export class JumbotronComponent {
+    private jbtHeading: string;
+    private jbtText: string;
+    private jbtBtnText: string;
+    private jbtBtnLink: string;
+
+    constructor() {
+        this.jbtHeading = "Does my Angular App Work?";
+        this.jbtText = "Well, Hello There!";
+        this.jbtBtnText = "Learn More";
+        this.jbtBtnUrl = "/about";
+    }
+}
